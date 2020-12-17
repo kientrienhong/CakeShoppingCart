@@ -1,0 +1,424 @@
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:390) - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:391) - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:395) - Starting handshake
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:425) - Secure session established
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:426) -  negotiated protocol: TLSv1.2
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:427) -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:435) -  peer principal: CN=accounts.google.com, O=Google LLC, L=Mountain View, ST=California, C=US
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:444) -  peer alternative names: [accounts.google.com, *.partner.android.com]
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:448) -  issuer principal: CN=GTS CA 1O1, O=Google Trust Services, C=US
+2020-10-18 DEBUG [http-nio-8084-exec-16] (DefaultHttpClientConnectionOperator.java:146) - Connection established 192.168.1.131:53912<->172.217.24.205:443
+2020-10-18 DEBUG [http-nio-8084-exec-16] (MainClientExec.java:256) - Executing request POST /o/oauth2/token HTTP/1.1
+2020-10-18 DEBUG [http-nio-8084-exec-16] (MainClientExec.java:261) - Target auth state: UNCHALLENGED
+2020-10-18 DEBUG [http-nio-8084-exec-16] (MainClientExec.java:267) - Proxy auth state: UNCHALLENGED
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:133) - http-outgoing-0 >> POST /o/oauth2/token HTTP/1.1
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Content-Length: 318
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Host: accounts.google.com
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Connection: Keep-Alive
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 >> "POST /o/oauth2/token HTTP/1.1[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 >> "Content-Length: 318[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 >> "Host: accounts.google.com[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 >> "[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:87) - http-outgoing-0 >> "client_id=16791085400-tldk9nm6lckuoe7lpl54hemqbdhc1q5s.apps.googleusercontent.com&client_secret=ns2-6Ym1fp2o_nfcnIzFsB-S&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2FJavaWebLab2%2FloginGoogle&code=4%2F5QH-ITTcshptZcOiPbgkLPbU2nKUcpqpT97oAjRyXy5iV-aO5ih8KNYryM9Jli4HonNv3k0cDixjtUdnu1_5JHo&grant_type=authorization_code"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "Expires: Mon, 01 Jan 1990 00:00:00 GMT[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "Date: Sun, 18 Oct 2020 14:07:44 GMT[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "Vary: Origin[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "Vary: X-Origin[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "Vary: Referer[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "Server: scaffolding on HTTPServer2[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "X-XSS-Protection: 0[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "Alt-Svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0x1f][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0x8b][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0x8][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0x0][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0x0][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0x0][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0x0][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0x0][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0x2][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0xff][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "E[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "S[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0xc9][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "r[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0xab][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "H[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0x10][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0xbc][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "0000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0xbf][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "3a5[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:87) - http-outgoing-0 << "[0xaf]p[0xf8]<[0xb6][0xa1][0x11]H[0xbc][0x1b][0x12]b[0x91][0xd4] [0x16][0xb1]][0x8][0x96][0x96]hv[0xb1][0x88]eb[0xfe]}[0xc0]>[0xf8][0xd8][0xd5]U[0x99]Y[0x99]Q[0xff][0xfe]y{{[0xf][0xa2][0x8][0xb5][0xad][0xdf]U[0x19]*[0xdf][0xff][0xbe][0xbd]O[0x1]`?[0x3][0x82][0xbb]K[0x8c][0x1][0xf][0xd4][0x5]6[0xdb][0xc6][0x80][0xac]!;I~@zN2[0xae][0xe9]F[0xbb][0x92][0xce][0x2][0x9d]i7[0xbb][0xd0][0xf4][0x9f]gY=x[0xbe]t[0xf9]H[0xa6][0x93]eYtOL[0xf4]l[0xd0][0x9d]B[0xb6][0xa2]5[0xa3]1nR[0xec][0x98][0xd2][0x95]8[0x99][0x81][0x1c]n[0xed][0xe1][0x81][0xa3]4[0xef][0x84]3[0xcd][0xbb][0xf3][0xa5]rN"[0x9c][0xc2][0x1b]s[0xa4]/[0xc6][0x99]D[0x12]@]0[0xcb]][0xb5]m[0xb4]9![0xc6][0xcb][0xab][0x6][0xa2][0xc7]:Gn[0xfb]Q[0xab][0xfb]n[%[0xfb]]Eq[0xef][0xff][0xac][0xfa][0xd1]X[0xe3][0x6][0xb5]>^[0xd5]S4[0xcb]~W[0xdb][0xa8][0xaa][0xd1][0xba]N[0xd2]uu[0xfb][0xf7][0xeb]k[0x18][0x86][0xcf]GU=r[0x14][0xd4][0xb8][0xfd][0x8c][0xaa][0xe2]+[0xe8][0xbb][0xe4][0xab]oQ[0x83][0xcb]{[0xf5][0x89][0x8a][0x0][0xe7]o[0xcb]T[0x89][0xe3][0x1f][0xe4]oK[0xfc]n[0xfa][0x1][0xda][0xa3][0xa0]A[0xcd][0xcf][0xf][0x8e][0xfd]B[0xd3])[0x9][0xc5][0x8][0xab][0xf8]d[0xdc]f[0x99]T[0xb0][0xdc][0xca]EW{[0x7][0x99][0x91][0xd3]#[0xa5][0x8a][0x2][0x86][0xb6][0x9e]*f6B[0xa0][0xd1]0[0xcd]38[0xc7])L[0x95][0xcc][0x5]B[0xa2][0x9a][0xee][0xa8][0xf2][0xd1][0xe4][0xa5]I[0xa6][0xcc]{[0xac][0xa4][0xf]|9[0x9c][0x8][0xe4]p+[0xe6][0xd9]"5|[0xd7]>[0x17][0x9a]:[0xa2][0xe0]ZJ\[0xa0][0xbc]b[0x9b]&[0xa2][0x89].C[0xc0][0x96][0xa1]x[0xeb]][0xc0]v2[0x1e][0xb0][0xeb][0xd4][0x83][0x9c]V[0x18][0x9a].[0xa5][0x9a][0xc7]A[0xe5]o[0x4][0xe4][0xb9].[0x16][0xc7],[0x98][0xf3]>4[0xbd][0xd6][0x5][0x1d][0x19][0x82][0x1b][0x15]J[0xfb]V1[0xf5][0xca][0xb3][0xc9][0xd1]-[0xf4][0xca][0x9d][0x85]Qq`[0xef]:[0xfb][0xe1][0x17][0xdb]"#`M[0xb]~[0x1f][0x8b]V[0x1f][0x1f][0xe8]4[0x4][0xc4]*1[0x89]mm[0xd1]#[0x8f]J[0x1a][0xd1][0xd0][0xe4]6[0x8a][0xa9][\r]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:122) - http-outgoing-0 << HTTP/1.1 200 OK
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Expires: Mon, 01 Jan 1990 00:00:00 GMT
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Date: Sun, 18 Oct 2020 14:07:44 GMT
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Pragma: no-cache
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Vary: Origin
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Vary: X-Origin
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Vary: Referer
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Encoding: gzip
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Server: scaffolding on HTTPServer2
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-XSS-Protection: 0
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Frame-Options: SAMEORIGIN
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Content-Type-Options: nosniff
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Alt-Svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Transfer-Encoding: chunked
+2020-10-18 DEBUG [http-nio-8084-exec-16] (MainClientExec.java:285) - Connection can be kept alive indefinitely
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[0xf0]@[0x12][0xa1][0xa8]7[0xaa][0xbd][0xc4]_[0x8c]i@Y/[0xcf][0x8c][0xdb]H[0x1c]HEL[0xf2][0xd0][0x11][0xb0]'&)t[0x8e][0xe4][0xc2][0x91]D[0xd2]~[0xbe][0x14][0xf1]+[0x4]q[0xeb]9[0xd6][0xec]9[0xa7][0x5][0x9f]&[0xbc]e[0xbf]K[0xa1][0xbc]Bc[0xb1][0xb3]TH[0x17][0xdb]9@>[0x9b]a[0xaa]mT[0x9e][0x9b][0x95]9#![0xaf][0xcd][0xb]/[0xa9][0x1e]V[0xdb][0xad][0xce][0xb5][0xf3]v[0xdd]?[0x0]y[0x1e][0x96][0xfa][0x14][0xd8]V[0x1f][0x88]l[0xef][0x11][0xfb]2[0xb4][0x85]:[0xfc][0xd5][0x9f][0xbf][0x5][0x16],[0x9c][0xb5]W[0xe4][0xf9][0x1a]Y,[0x9d]H[0xcf]X}[0xd4][0xef][0x81]([0xcc][0xc1][0x1a]cFW6[0x9f][0x1]O[0xb0]n[0x8a]%[0x8c][0xc8][0xf6][0x9e]v[0x16]g[0xa8][0xe8]To[0x89]~[0xc1][0xaa]]g[0xf1]"=[0x2][0xc8][0xc3][0x1][0xce][0xdc][0xa0][0xa4][0xda][0xaa]g[0x13]-[0xf3]K[0x16]km[0x86][0xf3][0x92][0x9c]D|[0x16]$[0xa0][0x99][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "-[0xa7][0xa3][0xba]1[0xca]q5I[0xe6][0xe5][0x19][0x83][0x8b][0x93][0xd7]4[0x9f][0x10][0xfd]qb;[0x8b][0xf3][0x1b][0xfe][0xb4][0xd3][0xd1][0x7][0xe6][0xb6][0xc][0xd5][0xe2][0xd9]mx:F[0xee][0xed]I[0xf4][0x99][0xd1][0xe9]Pc[0xe2][0xce][0xd9][0xea]W[0x95][0xcd][0x8f]{[0x9d][0xea]_[0x80])iA[0x1f][0x18][0xa9]<7jp[0x9f]@[0xc4]S[0x9d][0x98]z[0x99][0xc8][0xf1]B[0x9b][0xdd]9Y}5[0xea][0xd2][0xbc][0xe1][\r]Kt*B[0xb1][0x8a][0xf4]9\y[0xd7][0xae][0xf][0xbb]sF[0xef][0x90][0xc2][0xd3]|Y$r7[0x99][0xa4][0xfc][0x81][0x8f]![0x0]'[0xd1]E[0xbb]QzP[0xaf]\[0xe9][0x9f][0x3][0x1d][0x8f]Y[0x8f][0xd8][0x13][\r][0x10][0xb1][0xdc][0xd6][0xc9][0xd4]kA[0xa7]|[0xf8][0x14]}?[0xb6][0xc4][0xf1][0xfe][0xaa]-"tJl[0xee][0x8c]:[0xab][0x1e]tm[0x4];l[0x1e][0x19]1[0xe2][0xbc][0xb1]j[0xbd]B[0xab][0xf7][0xd8][0xaf][0xb5]M[0x89][0xaf][0x9a]2[0xf1][0xba][0xdb][0x1]ho[0xd9][0xc8]z[0xf0][0xb3]G[0xd7][0x8c][0xc6]>+[0xa2][0xc3]~[0x1c]1[0xc6][0x81][0x9a];J[0xba][0x9a][0xe7][0xdc][0xf7][0xef][0x1e]?[0x0][0x8d][0xb7][0x9d][0x8b][0xad]xWY[0x8a]SFQg[0xee][0x16][0x8f][0xfb]n[0xb2][0xb8][0xf7]?[0xff][0xfd][0xf]N[0x81][0xa7]`[0xd1][0x4][0x0][0x0][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "0[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-0 << "[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (PoolingHttpClientConnectionManager.java:341) - Connection [id: 0][route: {s}->https://accounts.google.com:443] can be kept alive indefinitely
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:88) - http-outgoing-0: set socket timeout to 0
+2020-10-18 DEBUG [http-nio-8084-exec-16] (PoolingHttpClientConnectionManager.java:348) - Connection released: [id: 0][route: {s}->https://accounts.google.com:443][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 200]
+2020-10-18 DEBUG [http-nio-8084-exec-16] (RequestAddCookies.java:123) - CookieSpec selected: default
+2020-10-18 DEBUG [http-nio-8084-exec-16] (RequestAuthCache.java:77) - Auth cache not set in the context
+2020-10-18 DEBUG [http-nio-8084-exec-16] (PoolingHttpClientConnectionManager.java:265) - Connection request: [route: {s}->https://www.googleapis.com:443][total kept alive: 1; route allocated: 0 of 100; total allocated: 1 of 200]
+2020-10-18 DEBUG [http-nio-8084-exec-16] (PoolingHttpClientConnectionManager.java:309) - Connection leased: [id: 1][route: {s}->https://www.googleapis.com:443][total kept alive: 1; route allocated: 1 of 100; total allocated: 2 of 200]
+2020-10-18 DEBUG [http-nio-8084-exec-16] (MainClientExec.java:235) - Opening connection {s}->https://www.googleapis.com:443
+2020-10-18 DEBUG [http-nio-8084-exec-16] (DefaultHttpClientConnectionOperator.java:139) - Connecting to www.googleapis.com/216.58.200.74:443
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:337) - Connecting socket to www.googleapis.com/216.58.200.74:443 with timeout 0
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:390) - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:391) - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:395) - Starting handshake
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:425) - Secure session established
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:426) -  negotiated protocol: TLSv1.2
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:427) -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:435) -  peer principal: CN=upload.video.google.com, O=Google LLC, L=Mountain View, ST=California, C=US
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:444) -  peer alternative names: [upload.video.google.com, *.clients.google.com, *.docs.google.com, *.drive.google.com, *.gdata.youtube.com, *.googleapis.com, *.photos.google.com, *.upload.google.com, *.upload.youtube.com, *.youtube-3rd-party.com, upload.google.com, upload.youtube.com, uploads.stage.gdata.youtube.com]
+2020-10-18 DEBUG [http-nio-8084-exec-16] (SSLConnectionSocketFactory.java:448) -  issuer principal: CN=GTS CA 1O1, O=Google Trust Services, C=US
+2020-10-18 DEBUG [http-nio-8084-exec-16] (DefaultHttpClientConnectionOperator.java:146) - Connection established 192.168.1.131:53972<->216.58.200.74:443
+2020-10-18 DEBUG [http-nio-8084-exec-16] (MainClientExec.java:256) - Executing request GET /oauth2/v1/userinfo?access_token=ya29.a0AfH6SMC3LMr7rSM9SIXhlCeRl16YTYc8n5kaR6s48bT_qKIOCZ_HL-hyJVVV5u0y5zS5tN1sGVzexdrjiXTHP0JTaIb7WwgicjltFK5DYzLoXJGMybU6E5LSK1eH2etazIto7rQzh0xLvp2GZ9XEA7-pOBt7ohB8o3A HTTP/1.1
+2020-10-18 DEBUG [http-nio-8084-exec-16] (MainClientExec.java:261) - Target auth state: UNCHALLENGED
+2020-10-18 DEBUG [http-nio-8084-exec-16] (MainClientExec.java:267) - Proxy auth state: UNCHALLENGED
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:133) - http-outgoing-1 >> GET /oauth2/v1/userinfo?access_token=ya29.a0AfH6SMC3LMr7rSM9SIXhlCeRl16YTYc8n5kaR6s48bT_qKIOCZ_HL-hyJVVV5u0y5zS5tN1sGVzexdrjiXTHP0JTaIb7WwgicjltFK5DYzLoXJGMybU6E5LSK1eH2etazIto7rQzh0xLvp2GZ9XEA7-pOBt7ohB8o3A HTTP/1.1
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-1 >> Host: www.googleapis.com
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-1 >> Connection: Keep-Alive
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 >> "GET /oauth2/v1/userinfo?access_token=ya29.a0AfH6SMC3LMr7rSM9SIXhlCeRl16YTYc8n5kaR6s48bT_qKIOCZ_HL-hyJVVV5u0y5zS5tN1sGVzexdrjiXTHP0JTaIb7WwgicjltFK5DYzLoXJGMybU6E5LSK1eH2etazIto7rQzh0xLvp2GZ9XEA7-pOBt7ohB8o3A HTTP/1.1[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 >> "Host: www.googleapis.com[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 >> "[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "Pragma: no-cache[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "Date: Sun, 18 Oct 2020 14:08:01 GMT[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "Expires: Mon, 01 Jan 1990 00:00:00 GMT[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "Vary: Origin[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "Vary: X-Origin[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "Vary: Referer[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "Server: ESF[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "X-XSS-Protection: 0[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "Alt-Svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "Transfer-Encoding: chunked[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x1f][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x8b][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x8][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x2][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0xff][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "M[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x8c][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "=[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0xf][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x82][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "0[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x14][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "E[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "w[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "~[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "9f[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x5][0xe9][0xac][0xb4]B[0x89][0xc0]$[0x8b][0x9][0x13][0x8b];1[0xf0]l[0xcb]G[0xdb][0x94][0x7][0x83][0xc6][0xff].[0xd5]h|[0xc3][0xcd][0xcb][0xbd]'[0xe7][0x11][0x84]!Q[0x1d])Br`,Ob[0x9e]e,9[0xe6])[0xe3]I[0xca][0xd3][0x8c][0xec]<[0x0][0xd3]U[0x8d][0x9e][0x19][0x14]ht[H[0xa3][0xc5]I[0xf8]:j[0xcd][0xf4][0xa1]Vp[0xea][0xa6][0xa0]k[0xbe]8[0xba][0x5][0xde][0x8b]U-.[0xe][0xbc]A"[0xda][0xb9][0xa0]t[0x94]<[0x12][0xc6][0x88][0x11][0x96][0x19]\k4nf[0xef][0xa2][0xfb][0xb8][0xae][0xe7]&[0xe9][0xc5][0xbd][0x19]h[0xf9][0xbb][0xea][0xef]/[0xa9]\1[0xbf][0x9c]AO}E[0xad]4h[0xa2][0xde][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[0x12]<[0x83][0x17][0x1e]yWJ[0xd1][0x0][0x0][0x0][\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:122) - http-outgoing-1 << HTTP/1.1 200 OK
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Pragma: no-cache
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Date: Sun, 18 Oct 2020 14:08:01 GMT
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Expires: Mon, 01 Jan 1990 00:00:00 GMT
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Content-Type: application/json; charset=UTF-8
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Vary: Origin
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Vary: X-Origin
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Vary: Referer
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Content-Encoding: gzip
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Server: ESF
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << X-XSS-Protection: 0
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << X-Frame-Options: SAMEORIGIN
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << X-Content-Type-Options: nosniff
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Alt-Svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Transfer-Encoding: chunked
+2020-10-18 DEBUG [http-nio-8084-exec-16] (MainClientExec.java:285) - Connection can be kept alive indefinitely
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "0[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (Wire.java:73) - http-outgoing-1 << "[\r][\n]"
+2020-10-18 DEBUG [http-nio-8084-exec-16] (PoolingHttpClientConnectionManager.java:341) - Connection [id: 1][route: {s}->https://www.googleapis.com:443] can be kept alive indefinitely
+2020-10-18 DEBUG [http-nio-8084-exec-16] (LoggingManagedHttpClientConnection.java:88) - http-outgoing-1: set socket timeout to 0
+2020-10-18 DEBUG [http-nio-8084-exec-16] (PoolingHttpClientConnectionManager.java:348) - Connection released: [id: 1][route: {s}->https://www.googleapis.com:443][total kept alive: 2; route allocated: 1 of 100; total allocated: 2 of 200]
+2020-10-20 ERROR [http-nio-8084-exec-12] (FilterDispatcher.java:150) - org.apache.jasper.JasperException: The absolute uri: http://java.sun.com/jsp/jstl/core cannot be resolved in either web.xml or the jar files deployed with this application
+2020-10-22 ERROR [http-nio-8084-exec-25] (FilterAuthentication.java:186) - java.lang.NullPointerException
+2020-10-22 ERROR [http-nio-8084-exec-22] (FilterAuthentication.java:186) - java.lang.NullPointerException
+2020-10-22 ERROR [http-nio-8084-exec-23] (FilterAuthentication.java:186) - java.lang.NullPointerException
+2020-10-22 ERROR [http-nio-8084-exec-29] (FilterAuthentication.java:186) - java.lang.NullPointerException
+2020-10-22 ERROR [http-nio-8084-exec-38] (FilterAuthentication.java:186) - java.lang.NullPointerException
+2020-10-22 ERROR [http-nio-8084-exec-39] (FilterAuthentication.java:186) - java.lang.NullPointerException
+2020-10-22 ERROR [http-nio-8084-exec-45] (FilterAuthentication.java:186) - java.lang.NullPointerException
+2020-10-22 ERROR [http-nio-8084-exec-49] (FilterAuthentication.java:186) - java.lang.NullPointerException
+2020-10-22 ERROR [http-nio-8084-exec-59] (FilterAuthentication.java:186) - java.lang.NullPointerException
+2020-10-22 ERROR [http-nio-8084-exec-57] (FilterAuthentication.java:186) - java.lang.NullPointerException
+2020-10-27 DEBUG [http-nio-8084-exec-2] (RequestAddCookies.java:123) - CookieSpec selected: default
+2020-10-27 DEBUG [http-nio-8084-exec-2] (RequestAuthCache.java:77) - Auth cache not set in the context
+2020-10-27 DEBUG [http-nio-8084-exec-2] (PoolingHttpClientConnectionManager.java:265) - Connection request: [route: {s}->https://accounts.google.com:443][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 200]
+2020-10-27 DEBUG [http-nio-8084-exec-2] (PoolingHttpClientConnectionManager.java:309) - Connection leased: [id: 0][route: {s}->https://accounts.google.com:443][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 200]
+2020-10-27 DEBUG [http-nio-8084-exec-2] (MainClientExec.java:235) - Opening connection {s}->https://accounts.google.com:443
+2020-10-27 DEBUG [http-nio-8084-exec-2] (DefaultHttpClientConnectionOperator.java:139) - Connecting to accounts.google.com/216.58.200.13:443
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:337) - Connecting socket to accounts.google.com/216.58.200.13:443 with timeout 0
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:390) - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:391) - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:395) - Starting handshake
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:425) - Secure session established
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:426) -  negotiated protocol: TLSv1.2
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:427) -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:435) -  peer principal: CN=accounts.google.com, O=Google LLC, L=Mountain View, ST=California, C=US
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:444) -  peer alternative names: [accounts.google.com, *.partner.android.com]
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:448) -  issuer principal: CN=GTS CA 1O1, O=Google Trust Services, C=US
+2020-10-27 DEBUG [http-nio-8084-exec-2] (DefaultHttpClientConnectionOperator.java:146) - Connection established 10.1.164.164:51621<->216.58.200.13:443
+2020-10-27 DEBUG [http-nio-8084-exec-2] (MainClientExec.java:256) - Executing request POST /o/oauth2/token HTTP/1.1
+2020-10-27 DEBUG [http-nio-8084-exec-2] (MainClientExec.java:261) - Target auth state: UNCHALLENGED
+2020-10-27 DEBUG [http-nio-8084-exec-2] (MainClientExec.java:267) - Proxy auth state: UNCHALLENGED
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:133) - http-outgoing-0 >> POST /o/oauth2/token HTTP/1.1
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Content-Length: 318
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Host: accounts.google.com
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Connection: Keep-Alive
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 >> "POST /o/oauth2/token HTTP/1.1[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 >> "Content-Length: 318[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 >> "Host: accounts.google.com[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 >> "[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:87) - http-outgoing-0 >> "client_id=16791085400-tldk9nm6lckuoe7lpl54hemqbdhc1q5s.apps.googleusercontent.com&client_secret=ns2-6Ym1fp2o_nfcnIzFsB-S&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2FJavaWebLab2%2FloginGoogle&code=4%2F5gEBY8qvhBt026NvAhBcyPfuVzPuxvKz93M_5DsnVyxyO4CPaySBL8kUKtOb2N2zV11s7Q427lABg8LlUTXoUHk&grant_type=authorization_code"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "Expires: Mon, 01 Jan 1990 00:00:00 GMT[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "Date: Mon, 26 Oct 2020 23:52:15 GMT[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "Vary: Origin[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "Vary: X-Origin[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "Vary: Referer[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "Server: scaffolding on HTTPServer2[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "X-XSS-Protection: 0[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "Alt-Svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "[0x1f][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "[0x8b][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "0003b8[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "[0x8][0x0][0x0][0x0][0x0][0x0][0x2][0xff]E[0x91][0xc9]r[0xab]H[0x10]E[0xf7][0xef]+[0x1c]^[0xb7]dFK[0xbc][0x1d][0x88]AH[0xa2]0[0x88]y[0xa3]([\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "[0x10][0xc5],1[0x8a][0x8e][0xfe][0xf7][0x6]{[0xe1]eeE[0x9e][0xbc]y[0xf2][0xdf]?oo[0xef][0x10][0xa1][0xb8]mo][0x9d][0xc7][0xd5][0xfb][0xdf][0xb7][0xf7][0x17][0xa4][0xb8]-$[0xf8][0xe4][0xf8]y[0xd5]Df8Qr[0xde]?[0x19][0x4]9[0x16][0x1b]|[0xd9]5#[0x8d]E[0xab][0x11]x[0xc6]4=[0xc8]FGa[0x94][0xba][0xc7]FWj[0xf7][0x91]w[0xfb]*[0xc]m[0xb7]{[0xf0] [0xef]c[0xf3][0xac][0x1f]U[0x99][0xd2]i[0xa7][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "[0x9a][0xf4][0x11][0x9d][0xeb][0x8b][0x3][0xca][0xaf][0xba][0x1d]%{[0xb7][0xda][0xf3][0x13]+Q[0x92][0x4][0xca]>[0xeb]=[0xf1]2[0x12]g#q[0xe][0xa1][0xea]q[0x80][0xf][0xbc]C[0xde]B[0xbe]%[0x13][0xe9]1e[0x8][0xd9]T[0xa3]1g[0xa6][0xb1]*;JZ*%[0xdb][0xfa][0xfd][0x9f]5<5[0xf8][0x19][0xb7]7[0xbc][0xa6][0xa7]Y[0x8e][0xfb][0xae][0xb6][0xa8]n[0xe2]u[0x9d][0xb4][0xeb][0x9a][0xf6][0xef][0xc7][0xc7]8[0x8e][0xdb]{][0xdf][0x8b][0x18]6[0xb8][0xdd][0xa2][0xba][0xfc][0x80]}[0x97]~[0xf4]m[0xfc][0xc4]URo[0xe3][0x12][0xe2][0xe2]m[0xe9][0xaa]p[0xf4]C[0xfe]Vr[0xeb]^? ![0x86][0xcf][0xf8][0xf9][0xf3][0x83][0xa3]__[0xf1][0xeb][0x94][0x86][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "[0xc2]:>][0xed]Y%[0x1]V[u[0xd1][0x14][0x1c][0xd4]O[0xb5]4F[0xe0]:[0xa5][0x96][0x9][0x19][0x10][0xed]I[0xb7][0xe4]"(}[\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "([0xea][0xb][0xb8][0xc6][0xac][0x8b]B[0xe][0xc4][0xa0][0xc][0x14][0x9b][0x4][0xae][0x9c]i[0x99][0xca][0x6][0xa2][0x84]/[0x87][0x13][0x11]{[0xfc][0xca]<;[0xa4][0x81][0x13]c[0xbb][0x8c]i[0x10][0xad][0xad][0xa5]t[0x1][0xc][0x91][0xcb][0x12][0xe8][0xc5]V![0xc5]U[0xa1]b[0xf7]>[0xc5]u*[0x1e][0xb1][0xef]5[0xa3][0x9a][0xd5]X[0xb3]|Z[0xb7][0xa4]Q[0x17]mB[0x13][0xf9].R[0xa6][0x1c][0xce]E[0x1f]ZA[0xeb]S[0x1d][0x19]R6[0x1d][0x1e][0x85][0x16]Xf[0x1d][0xb8][0xe4][0xe4][0x97]f[0xed][0xcf][0xf2][0x4]<[0xad][0xf7]=a[0xfc]e;$[0xa2][0x9c][0xd7][0xc2][0xef]#[0xc5][0xe9][0xa3][0x3][0x9b][0x85][0x14][0xb1]FL#[0xd7]X[0xf2][0xa8][0x13][0xc8][0x10][0xab]Y<[0x3],c[0xd4][0xe]$[0x11]*[0xe6]Sw[0xd9][0xe][0x94]S[0x6]ig[0x8][0xac][0xa8]E[0xca]H[0x2]%-BO[0xc6][0x81][0x92]f[0x9a]'[0x91][0xcb][0x8c][0x14][0x1d][0x85][0xf9]RFCHEm[0xe0]9s[0xe0][0x9d][0x16]>K[0x4][0xcb]~[0x97][0x12][0xc][0xe1]u[0xd1]Y[0x1][0xd2][0xc7][0x8b][0xce]L[0x1a]51[0x9f][0xb5][0xcc]`t[0x91][0x9f][0xc1][0x9c][0x93][0x9a]h[0xcc][0xcb]\R?[0xac][0xda][0x9d][0xce]w[0x8b]v[0xdd][0x1f]RE[0x11]V[0xe6][0xb][0xba]N[0xf][0x15][0xae][0xf][0x8][0xa1][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:87) - http-outgoing-0 << "][0xb9][0x9][0xf3][0x17][0xdf]o[0x99][0xa3][0x96][0x99]MP[0x16][0xc5]z[0xb2][0xe8]x"[0x83][0xeb][0xea][0xd1]L[0xa0]"[0xcf]p=c[0xee][0x94]f[0x19])>![0xcb][0xd0][0xcd][0x9]P[0x16]YXE[0xb5][0xe6][0xc8][0x81]~D+[0xab][0xf1][0xbd][0xc5]E&Q[0x9a][0xa8][0xd1][0xc0][0xf2]gm[0xb6][0xd7]<[0xc]Z[0xfa][0x97][[0x8c][0xda][0x8c]H[0xdd][0xca]g[0xe0][0x11][0xdb][0xc7][0xa8][0xc5]\[0xc8]([0xd3]e[0x8] [0xad][0xc6][0xdd][0xf1][0xde][0x1d]KR=[0xb4][0xb2]Ixvj^rt;[0xed]x[0xca][0xe4][0xba][0xbd][0x87]#!J[0xd5]*[0xba]:[0xb9][0xe0]!|"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:122) - http-outgoing-0 << HTTP/1.1 200 OK
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Expires: Mon, 01 Jan 1990 00:00:00 GMT
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Pragma: no-cache
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Date: Mon, 26 Oct 2020 23:52:15 GMT
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Vary: Origin
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Vary: X-Origin
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Vary: Referer
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Encoding: gzip
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Server: scaffolding on HTTPServer2
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-XSS-Protection: 0
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Frame-Options: SAMEORIGIN
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Content-Type-Options: nosniff
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Alt-Svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Transfer-Encoding: chunked
+2020-10-27 DEBUG [http-nio-8084-exec-2] (MainClientExec.java:285) - Connection can be kept alive indefinitely
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "[0xac][0xd2]B88[0x98]k[0xe]&[0xb3][0x1b][0x93][0xe4][0xb1][0xe9]H[0xce]M[0x87][0xa3][0x80][0xa5][0xd3]uxvJ[0xec][0xda][0x9][0xa5][0xd0][0xfa]=c[0xe5][0x7][0xa1][0x10]M[0x96]WH>e[0xcd]U[0xa6][0xc4][0xa7][0x9][0xce][0x94][0xbd][0xdf]7[0x9b]Mt[0xed][0xbd][0xd8][0x89][0x92][0x8b][0xe0][0xc0][0xc9]f[0xf9][0xa9]0[0x5][0xbd][0xbe][0x1c][0xa4][0x87] [0xf][0x95]N[0xeb]q[0xa6]][0xbf][0xf0][0xae]([0x8d][0xeb][\r][0xe4]|[0xf6][0x9a][0xe7][0xfc][0x9a][0x11]I[0x5]][0xa6]`[0xc5]M[0xcd][0xd8]&[0x1c][0x92][0xbe]5,[0xc9][0xb0]o[0x93][0x17][0x9e][0xf4][0xe2][0xf1][0xe4][0xea][0xab]q[0xcf]|[0x1b][0xc2][0xcf][0xd3][0xe4]|[0x89][0xc3][0x14]U;[0x84][0xd0][0xe7][0x85][0x84][0xe1][0x89][0xd4][0x98][0x1d][0xea][0x5][0x85]/[0x9d][0x89]&o[0xcd][0xf3][0xb][0xb1][0xb2][0xda]K,[\r]>![0x1][0x8e]f[0xf2]z|[0xde][0xc6][0x97]ts[0xe]`[0xf0][0x99]}[0xdc][0xb0][0x84][0xbb][0xb7]h[0xda][0x92]6[0x8f]/[0x16][0x9a][0x89]u[0x97][0x9c]n[0xa7]F[0xc6][0x99])M~[0xc3][0x97]s[0x12][0x18][0xef][0xfe][0xfb][0x1f][0x87][0xf7][0x88]|[0xd1][0x4][0x0][0x0][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "0[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-0 << "[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (PoolingHttpClientConnectionManager.java:341) - Connection [id: 0][route: {s}->https://accounts.google.com:443] can be kept alive indefinitely
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:88) - http-outgoing-0: set socket timeout to 0
+2020-10-27 DEBUG [http-nio-8084-exec-2] (PoolingHttpClientConnectionManager.java:348) - Connection released: [id: 0][route: {s}->https://accounts.google.com:443][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 200]
+2020-10-27 DEBUG [http-nio-8084-exec-2] (RequestAddCookies.java:123) - CookieSpec selected: default
+2020-10-27 DEBUG [http-nio-8084-exec-2] (RequestAuthCache.java:77) - Auth cache not set in the context
+2020-10-27 DEBUG [http-nio-8084-exec-2] (PoolingHttpClientConnectionManager.java:265) - Connection request: [route: {s}->https://www.googleapis.com:443][total kept alive: 1; route allocated: 0 of 100; total allocated: 1 of 200]
+2020-10-27 DEBUG [http-nio-8084-exec-2] (PoolingHttpClientConnectionManager.java:309) - Connection leased: [id: 1][route: {s}->https://www.googleapis.com:443][total kept alive: 1; route allocated: 1 of 100; total allocated: 2 of 200]
+2020-10-27 DEBUG [http-nio-8084-exec-2] (MainClientExec.java:235) - Opening connection {s}->https://www.googleapis.com:443
+2020-10-27 DEBUG [http-nio-8084-exec-2] (DefaultHttpClientConnectionOperator.java:139) - Connecting to www.googleapis.com/216.58.200.10:443
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:337) - Connecting socket to www.googleapis.com/216.58.200.10:443 with timeout 0
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:390) - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:391) - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:395) - Starting handshake
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:425) - Secure session established
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:426) -  negotiated protocol: TLSv1.2
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:427) -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:435) -  peer principal: CN=upload.video.google.com, O=Google LLC, L=Mountain View, ST=California, C=US
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:444) -  peer alternative names: [upload.video.google.com, *.clients.google.com, *.docs.google.com, *.drive.google.com, *.gdata.youtube.com, *.googleapis.com, *.photos.google.com, *.upload.google.com, *.upload.youtube.com, *.youtube-3rd-party.com, upload.google.com, upload.youtube.com, uploads.stage.gdata.youtube.com]
+2020-10-27 DEBUG [http-nio-8084-exec-2] (SSLConnectionSocketFactory.java:448) -  issuer principal: CN=GTS CA 1O1, O=Google Trust Services, C=US
+2020-10-27 DEBUG [http-nio-8084-exec-2] (DefaultHttpClientConnectionOperator.java:146) - Connection established 10.1.164.164:51659<->216.58.200.10:443
+2020-10-27 DEBUG [http-nio-8084-exec-2] (MainClientExec.java:256) - Executing request GET /oauth2/v1/userinfo?access_token=ya29.a0AfH6SMD4vJ2Fkur4ca95iQAmtpw3iDTpBA4RRXa5dHBwEtq-OGoWqkt8nbbUWtqANkueRKOHIF2O3VnZphqdKoLVNmPoswEU78rUzriGdffZG8juXDLw0KQfVCbIX9NAZXCksaAs1fEqxjccU2pM4K4pTnUdfs2h1so HTTP/1.1
+2020-10-27 DEBUG [http-nio-8084-exec-2] (MainClientExec.java:261) - Target auth state: UNCHALLENGED
+2020-10-27 DEBUG [http-nio-8084-exec-2] (MainClientExec.java:267) - Proxy auth state: UNCHALLENGED
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:133) - http-outgoing-1 >> GET /oauth2/v1/userinfo?access_token=ya29.a0AfH6SMD4vJ2Fkur4ca95iQAmtpw3iDTpBA4RRXa5dHBwEtq-OGoWqkt8nbbUWtqANkueRKOHIF2O3VnZphqdKoLVNmPoswEU78rUzriGdffZG8juXDLw0KQfVCbIX9NAZXCksaAs1fEqxjccU2pM4K4pTnUdfs2h1so HTTP/1.1
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-1 >> Host: www.googleapis.com
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-1 >> Connection: Keep-Alive
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 >> "GET /oauth2/v1/userinfo?access_token=ya29.a0AfH6SMD4vJ2Fkur4ca95iQAmtpw3iDTpBA4RRXa5dHBwEtq-OGoWqkt8nbbUWtqANkueRKOHIF2O3VnZphqdKoLVNmPoswEU78rUzriGdffZG8juXDLw0KQfVCbIX9NAZXCksaAs1fEqxjccU2pM4K4pTnUdfs2h1so HTTP/1.1[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 >> "Host: www.googleapis.com[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 >> "[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "Pragma: no-cache[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "Date: Mon, 26 Oct 2020 23:52:35 GMT[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "Expires: Mon, 01 Jan 1990 00:00:00 GMT[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "Vary: Origin[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "Vary: X-Origin[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "Vary: Referer[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "Server: ESF[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "X-XSS-Protection: 0[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "Alt-Svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "Transfer-Encoding: chunked[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0x1f][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0x8b][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0x8][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0x2][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0xff][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "M[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0x8c][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "=[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0xf][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "000001[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0x82][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "a4[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "0[0x14]Ew~[0x5][0xe9][0xac][0xb4]B[0x89][0xc0]$[0x8b][0x9][0x13][0x8b];1[0xf0]l[0xcb]G[0xdb][0x94][0x7][0x83][0xc6][0xff].[0xd5]h|[0xc3][0xcd][0xcb][0xbd]'[0xe7][0x11][0x84]!Q[0x1d])Br`,Ob[0x9e]e,9[0xe6])[0xe3]I[0xca][0xd3][0x8c][0xec]<[0x0][0xd3]U[0x8d][0x9e][0x19][0x14]ht[H[0xa3][0xc5]I[0xf8]:j[0xcd][0xf4][0xa1]Vp[0xea][0xa6][0xa0]k[0xbe]8[0xba][0x5][0xde][0x8b]U-.[0xe][0xbc]A"[0xda][0xb9][0xa0]t[0x94]<[0x12][0xc6][0x88][0x11][0x96][0x19]\k4nf[0xef][0xa2][0xfb][0xb8][0xae][0xe7]&[0xe9][0xc5][0xbd][0x19]h[0xf9][0xbb][0xea][0xef]/[0xa9]\1[0xbf][0x9c]AO}E[0xad]4h[0xa2][0xde][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[0x12]<[0x83][0x17][0x1e]yWJ[0xd1][0x0][0x0][0x0][\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:122) - http-outgoing-1 << HTTP/1.1 200 OK
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Pragma: no-cache
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Date: Mon, 26 Oct 2020 23:52:35 GMT
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Expires: Mon, 01 Jan 1990 00:00:00 GMT
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Content-Type: application/json; charset=UTF-8
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Vary: Origin
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Vary: X-Origin
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Vary: Referer
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Content-Encoding: gzip
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Server: ESF
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << X-XSS-Protection: 0
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << X-Frame-Options: SAMEORIGIN
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << X-Content-Type-Options: nosniff
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Alt-Svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Transfer-Encoding: chunked
+2020-10-27 DEBUG [http-nio-8084-exec-2] (MainClientExec.java:285) - Connection can be kept alive indefinitely
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "0[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (Wire.java:73) - http-outgoing-1 << "[\r][\n]"
+2020-10-27 DEBUG [http-nio-8084-exec-2] (PoolingHttpClientConnectionManager.java:341) - Connection [id: 1][route: {s}->https://www.googleapis.com:443] can be kept alive indefinitely
+2020-10-27 DEBUG [http-nio-8084-exec-2] (LoggingManagedHttpClientConnection.java:88) - http-outgoing-1: set socket timeout to 0
+2020-10-27 DEBUG [http-nio-8084-exec-2] (PoolingHttpClientConnectionManager.java:348) - Connection released: [id: 1][route: {s}->https://www.googleapis.com:443][total kept alive: 2; route allocated: 1 of 100; total allocated: 2 of 200]

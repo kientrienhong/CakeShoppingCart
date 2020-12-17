@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <filter>
+        <filter-name>FilterDispatcher</filter-name>
+        <filter-class>trienhk.filters.FilterDispatcher</filter-class>
+    </filter>
+    <filter>
+        <filter-name>FilterAuthentication</filter-name>
+        <filter-class>trienhk.filters.FilterAuthentication</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>FilterDispatcher</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>FilterAuthentication</filter-name>
+        <url-pattern>/createCakePageAdmin</url-pattern>
+        <url-pattern>/createCakeServletAdmin</url-pattern>
+        <url-pattern>/updatePageAdmin</url-pattern>
+        <url-pattern>/updateCakeServletAdmin</url-pattern>
+        <url-pattern>/getStatusServletAdmin</url-pattern>
+        <url-pattern>/addProductToCartMember</url-pattern>
+        <url-pattern>/viewCartMember</url-pattern>
+        <url-pattern>/modifyQuantityMember</url-pattern>
+        <url-pattern>/deleteItemInCartMember</url-pattern>
+        <url-pattern>/checkOutMember</url-pattern>
+        <url-pattern>/checkOutSuccessMember</url-pattern>
+        <url-pattern>/checkOutPageMember</url-pattern>
+        <url-pattern>/trackOrderServletMember</url-pattern>
+        <url-pattern>/trackOrderPageMember</url-pattern>
+
+    </filter-mapping>
+    <listener>
+        <description>ServletContextListener</description>
+        <listener-class>trienhk.listeners.MyServerListener</listener-class>
+    </listener>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <resource-ref>
+        <res-ref-name>DS007</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+        <res-sharing-scope>Shareable</res-sharing-scope>
+    </resource-ref>
+    <welcome-file-list>
+        <welcome-file>store.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
